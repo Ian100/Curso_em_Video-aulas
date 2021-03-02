@@ -6,19 +6,19 @@
 #
 # Alguns métodos úteis das listas são:
 #
-#  - O método APPEND(): usado para adidionar um elemento ou objeto ao final de
-#  uma lista! Ex: lista.append('Macaco')
+#  - O método APPEND(): usado para adidionar um elemento ou objeto ao final
+#  de uma lista! Ex: lista.append('Macaco')
 #  - O método INSERT(): usado para adicionar um novo elemento à lista na
 #  posição desejada! Ex: lista.insert(0, 'Pudim')
 #  - O comando del: apaga uma tupla, lista, dicionário ou um elemento das
 #  mesmas!
 #  - O método POP(): remove um elemento da lista( tem que ser especificado o
 #  índice ). Ex: lista.pop(0)
-#  Normalmente usado para remover o último elemento de uma lista( não precisa
-#  especificar nada )! Ex: lista.pop()
-#  - O método REMOVE(): usado também para remover um elemento da lista( porém
-#  é necessário especificar o valor do elemento a que se quer remover )!
-#  Ex: lista.remove('Macaco')
+#  Normalmente usado para remover o último elemento de uma lista( não
+#  precisa especificar nada )! Ex: lista.pop()
+#  - O método REMOVE(): usado também para remover um elemento da lista
+#  ( porém é necessário especificar o valor do elemento a que se quer
+#  remover )! Ex: lista.remove('Macaco')
 #  A função LIST(): usada para criar listas!
 #  O método SORT(): usado para ordenar os elementos de uma lista
 #  ( Padrão: Ordem Crescente ). Ex: valores.sort()
