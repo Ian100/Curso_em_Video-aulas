@@ -69,3 +69,83 @@
 # 'a', 'b' e 'c'. Isso significa que caso não for informado
 # NENHUM VALOR para qualquer um destes parâmetros,
 # por PADRÃO eles valerão 0(Zero).
+
+# Escopo de Variáveis
+#
+# Ex:
+#    def teste(b):    - Escopo Local
+#        a = 8
+#        b += 4
+#        c = 2
+#        print(f'A dentro vale {a}')
+#        print(f'B dentro vale {b}')
+#        print(f'C dentro vale {c}')
+#
+#    a = 5            - Escopo Global
+#    teste(a)
+#    print(f'A fora vale {a}')
+#
+# Obs.: É possível mostrar na tela uma variável Global
+# dentro de um Escopo Local, porém não é possível mostrar
+# uma variável Local dentro de um Escopo Global.
+#
+# Obs.: No exemplo acima, a variável 'a' criada dentro do
+# Escopo Local NÃO REPRESENTA a variável Global 'a'. Ao invés
+# disso, quando definimos a variável Local 'a' com valor 8 no
+# Escopo Local, foi criado na memória mais uma variável 'a'
+# além da variável Global, sendo ao total duas variáveis,
+# uma Local e outra Global.
+#
+# Ex:
+#    def teste(b):     - Escopo Local
+#        global a
+#        a = 8
+#        b += 4
+#        c = 2
+#        print(f'A dentro vale {a}')
+#        print(f'B dentro vale {b}')
+#        print(f'C dentro vale {c}')
+#
+#
+#    a = 5             - Escopo Global
+#    teste(a)
+#    print(f'A fora vale {a}')
+#
+# Obs.: Note que no Escopo Local, logo abaixo do comando
+# 'DEF', está escrito "global a". Esta palavra reservada
+# chamada 'global', indica ao nosso programa que não queremos
+# que ele crie uma nova variável 'a'(Local), mas ao invés
+# disso use a variável Global 'a' dentro do Escopo Local.
+# Assim 'a' Global passa a valer 8 tanto no Escopo Local
+# quanto no Escopo Global.
+
+# Retorno de Valores
+#
+# Ex:
+#    def somar(a=0, b=0, c=0):
+#        s = a + b + c
+#        print(f'A soma vale {s}')
+#
+#
+#    somar(2, 3, 5)
+#    somar(2, 2)
+#    somar(6)
+#
+# Obs.: No exemplo acima, note que não é possível personalizar
+# o resultado, como no exemplo de baixo. Compare-os!
+#
+# Ex:
+#    def somar(a=0, b=0, c=0):
+#        s = a + b + c
+#        return s
+#
+#
+#    r1 = somar(3, 2, 5)
+#    r2 = somar(1, 7)
+#    r3 = somar(4)
+#    print(f'Meus cálculos foram {r1}, {r2} e {r3}.')
+#
+# Obs.: Neste exemplo temos a palavra reservada 'return', que,
+# neste caso, está retornando o valor da variável 's'.
+# Sendo assim, é possível personalizar a forma como queremos
+# que o resultado da função 'somar' apareça na tela.
