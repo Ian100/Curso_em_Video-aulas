@@ -149,3 +149,34 @@
 # neste caso, está retornando o valor da variável 's'.
 # Sendo assim, é possível personalizar a forma como queremos
 # que o resultado da função 'somar' apareça na tela.
+
+# Parte Prática:
+
+def fatorial(numero=1):
+    f = 1
+    for c in range(numero, 0, -1):
+        f *= c
+    return f
+
+
+n = int(input('Digite um número: '))
+print(f'O fatorial de {n} é igual a {fatorial(n)}')
+
+f1 = fatorial(5)
+f2 = fatorial(4)
+f3 = fatorial()
+print(f'Os resultados são {f1}, {f2} e {f3}')
+
+
+def par(numb=0):
+    if numb % 2 == 0:
+        return True
+    else:
+        return False
+
+
+num = int(input('Digite um número inteiro: '))
+if par(num):
+    print('Este número é PAR')
+else:
+    print('Este número é ÍMPAR')
