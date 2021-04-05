@@ -44,8 +44,19 @@ print(f'O dobro de {num} é {uteis.dobro(num)}')
 # - Todo arquivo .py pode ser potencialmente um módulo.
 # - Dentro de um projeto Python, TODA PASTA é CONSIDERADA um PACOTE!
 #
-# Então, se dentro do projeto tivermos um Pacote chamado uteis, basta
-# criarmos uma pasta chamada uteis, e se dentro deste Pacote tivermos
+# Então, se dentro do projeto tivermos um Pacote chamado úteis, basta
+# criarmos uma pasta chamada úteis, e se dentro deste Pacote tivermos
 # vários módulos, basta criar várias pastas com os seus respectivos nomes.
-# Depois apenas basta importá-la(as pastas com o Pacote e eventualmente
+# Depois apenas basta importá-la(a pasta com o Pacote e eventualmente
 # com os respectivos módulos) para dentro do seu programa principal.
+# Para cada pasta criada do nosso projeto, o Pycharm já nos ajuda criando
+# um arquivo automáticamente, chamado 'INIT.PY'(__init__.py),
+# que no caso, é uma sintaxe para nomes de arquivos dentro de pacotes.
+# E essa sintaxe É PADRÃO!
+
+from úteis import números
+
+num = int(input('Digite um número: '))
+fat = números.fatorial(num)
+print(f'O fatorial de {num} é {fat}')
+print(f'O dobro de {num} é {números.dobro(num)}')
