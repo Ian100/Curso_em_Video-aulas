@@ -1,12 +1,12 @@
 # Módulos e Pacotes
 #
-# - Modularização:
+# Modularização:
 #
-# _ Surgiu no início da década de 60
-# _ Sistemas ficando cada vez maiores
-# _ Foco: dividir um programa grande
-# _ Foco: aumentar a legibilidade
-# _ Foco: facilitar a manutenção
+# - Surgiu no início da década de 60
+# - Sistemas ficando cada vez maiores
+# - Foco: dividir um programa grande
+# - Foco: aumentar a legibilidade
+# - Foco: facilitar a manutenção
 
 import uteis
 
@@ -24,3 +24,10 @@ print(f'O dobro de {num} é {uteis.dobro(num)}')
 # Obs.: No Python, todo arquivo .py pode ser um módulo contanto
 #  que ele tenha funções internas, como em 'uteis.py'.
 #  Este é o conceito da Modularização!
+
+# Vantagens da Modularização:
+#
+# - Organização do código
+# - Facilidade na manutenção
+# - Ocultação de código detalhado
+# - Reutilização em outros projetos
