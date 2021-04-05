@@ -31,3 +31,21 @@ print(f'O dobro de {num} é {uteis.dobro(num)}')
 # - Facilidade na manutenção
 # - Ocultação de código detalhado
 # - Reutilização em outros projetos
+
+# Pacotes:
+#
+# Um Pacote nada mais é do que a junção de módulos separados
+# por assunto dentro de uma ou várias pastas. Pacotes normalmente
+# são usados quando um módulo fica extremamente grande e complexo,
+# sendo de difícil entendimento e organização.
+#
+# Para criarmos um Pacote, primeiro precisamos entender algumas coisas:
+#
+# - Todo arquivo .py pode ser potencialmente um módulo.
+# - Dentro de um projeto Python, TODA PASTA é CONSIDERADA um PACOTE!
+#
+# Então, se dentro do projeto tivermos um Pacote chamado uteis, basta
+# criarmos uma pasta chamada uteis, e se dentro deste Pacote tivermos
+# vários módulos, basta criar várias pastas com os seus respectivos nomes.
+# Depois apenas basta importá-la(as pastas com o Pacote e eventualmente
+# com os respectivos módulos) para dentro do seu programa principal.
