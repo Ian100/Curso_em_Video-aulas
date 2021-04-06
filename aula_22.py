@@ -22,8 +22,8 @@ print(f'O dobro de {num} é {uteis.dobro(num)}')
 # do arquivo.
 
 # Obs.: No Python, todo arquivo .py pode ser um módulo contanto
-#  que ele tenha funções internas, como em 'uteis.py'.
-#  Este é o conceito da Modularização!
+# que ele tenha funções internas, como em 'uteis.py'.
+# Este é o conceito da Modularização!
 
 # Vantagens da Modularização:
 #
