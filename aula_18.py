@@ -3,14 +3,14 @@
 # [Lista]
 # [[Lista dentro de uma lista]]
 #
-# dados = list()
-# dados.append('Pedro')
-# dados.append(25)
-# print(dados[0]) Pedro
-# print(dados[1]) 25
+# dado = list()
+# dado.append('Pedro')
+# dado.append(25)
+# print(dado[0]) Pedro
+# print(dado[1]) 25
 #
 # pessoas = list()
-# pessoas.append(dados[:])
+# pessoas.append(dado[:])
 # pessoas.append('Maria')
 # pessoas.append(19)
 # pessoas.append('João')

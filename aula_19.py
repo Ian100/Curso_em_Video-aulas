@@ -2,11 +2,11 @@
 #
 # RECAPITULANDO:
 #
-# dados = list()
-# dados.append('Pedro')
-# dados.append(25)
-# print(dados[0])   Pedro
-# print(dados[1])   25
+# dado = list()
+# dado.append('Pedro')
+# dado.append(25)
+# print(dado[0])   Pedro
+# print(dado[1])   25
 # ---------------------------------
 # - - - - -- DICIONÁRIOS -- - - - -
 #
@@ -14,19 +14,19 @@
 # pelas chaves "{" e "}".
 # Exemplos:
 #
-# dados = dict()
-# dados = {}
+# dado = dict()
+# dado = {}
 # --------------------------
-# dados = {'nome':'Pedro', 'idade':25}
-# print(dados['nome'])  Pedro
-# print(dados['idade']) 25
+# dado = {'nome':'Pedro', 'idade':25}
+# print(dado['nome'])  Pedro
+# print(dado['idade']) 25
 # ---------------------------------------------------
 # Quando se quer adicionar um novo elemento
 # a um dicionário, basta fazer assim:
 #
-# dados['novo_elemento'] = 'valor_do_novo_elemento'
+# dado['novo_elemento'] = 'valor_do_novo_elemento'
 # ---------------------------------------------------
-# dados['sexo'] = 'M'
+# dado['sexo'] = 'M'
 # ---------------------------------------------------
 # Para deletar um dicionário ou
 # um elemento de um dicionário, basta
@@ -34,9 +34,9 @@
 # aulas anteriores.
 # Exemplo:
 #
-# del dados['nome_do_elemento']
+# del dado['nome_do_elemento']
 # ---------------------------------------------------
-# del dados['idade']
+# del dado['idade']
 # ---------------------------------------------------
 # filme = {'titulo':'Star Wars',
 #          'ano':1977,
