@@ -38,7 +38,8 @@
             pula
         if coin:
             pega
-    pega '''
+    pega
+'''
 
 # PRÁTICA:
 
