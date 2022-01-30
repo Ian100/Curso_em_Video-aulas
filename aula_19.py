@@ -24,18 +24,20 @@
 # Quando se quer adicionar um novo elemento
 # a um dicionário, basta fazer assim:
 #
-# dado['novo_elemento'] = 'valor_do_novo_elemento'
+# Sintaxe: dado['novo_elemento'] = 'valor_do_novo_elemento'
 # ---------------------------------------------------
+# Exemplo:
+#
 # dado['sexo'] = 'M'
 # ---------------------------------------------------
 # Para deletar um dicionário ou
 # um elemento de um dicionário, basta
 # usar o comando del que foi visto nas
 # aulas anteriores.
+# Sintaxe: del dado['nome_do_elemento']
+# ---------------------------------------------------
 # Exemplo:
 #
-# del dado['nome_do_elemento']
-# ---------------------------------------------------
 # del dado['idade']
 # ---------------------------------------------------
 # filme = {'titulo':'Star Wars',
@@ -53,9 +55,9 @@
 pessoas = {'nome': 'Gustavo', 'sexo': 'M', 'idade': 22}
 print(f'O {pessoas["nome"]}, do sexo {pessoas["sexo"]} tem {pessoas["idade"]} anos.')
 print('----------------------------------------------------------------')
-print(pessoas.keys())
-print(pessoas.values())
-print(pessoas.items())
+print(f'{pessoas.keys()}'.center(64))
+print(f'{pessoas.values()}'.center(64))
+print(f'{pessoas.items()}'.center(64))
 print('----------------------------------------------------------------')
 # del pessoas['sexo']
 # pessoas['nome'] = 'Leandro'

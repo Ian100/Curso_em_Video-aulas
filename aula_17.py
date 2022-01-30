@@ -17,14 +17,14 @@
 #  Normalmente usado para remover o último elemento de uma lista( não
 #  precisa especificar nada )! Ex: lista.pop()
 #  - O método REMOVE(): usado também para remover um elemento da lista
-#  ( porém é necessário especificar o valor do elemento a que se quer
+#  ( porém é necessário especificar o valor do elemento self que se quer
 #  remover )! Ex: lista.remove('Macaco')
 #  A função LIST(): usada para criar listas!
 #  O método SORT(): usado para ordenar os elementos de uma lista
 #  ( Padrão: Ordem Crescente ). Ex: valores.sort()
 #  Também é possível usá-lo para ordenar os elementos de uma lista
 #  na ordem inversa. Ex: valores.sort(reverse=True)
-#  A função LEN(): usada para contabilizar a quantidade de elementos de uma
+#  A função LEN(): usada para contabilizar self quantidade de elementos de uma
 #  tupla, lista, dicionário ou variável!
 
 valores = list()
@@ -40,7 +40,7 @@ print('Cheguei ao final da lista.\n')
 
 a = [2, 3, 4, 7]
 b = a
-print('b = a')
+print('b = self')
 print(f'Lista A: {a}')
 print(f'Lista B: {b}\n')
 b[2] = 8
@@ -48,7 +48,7 @@ print('b[2] = 8')
 print(f'Lista A: {a}')
 print(f'Lista B: {b}\n')
 print('Cópia de A:\na = [2, 3, 4, 7]')
-print('b = a[:]\nb[2] = 8')
+print('b = self[:]\nb[2] = 8')
 a = [2, 3, 4, 7]
 b = a[:]
 b[2] = 8

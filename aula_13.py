@@ -55,17 +55,18 @@ Obs.: Intervalo(início, fim, intervalo ou razão)
 
 # PARTE PRÁTICA
 
-''' print('Oi')
-    print('Oi')
-    print('Oi')
-    print('Oi')
-    print('Oi')
-    print('Oi')
-    print('Oi')
-    print('Oi')
-    print('Oi')
-    print('Oi')
-    print('FIM')
+''' 
+print('Oi')
+print('Oi')
+print('Oi')
+print('Oi')
+print('Oi')
+print('Oi')
+print('Oi')
+print('Oi')
+print('Oi')
+print('Oi')
+print('FIM')
 '''
 
 # Exemplo 1:

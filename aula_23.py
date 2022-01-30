@@ -50,7 +50,7 @@ except Exception as erro:
 else:
     print(f'O resultado é {r:.1f}')
 finally:
-    print('Volte sempre! Muito obrigado!')
+    print('\nVolte sempre! Muito obrigado!')
 
 # Obs.: As cláusulas 'else' e 'finally' são opcionais, isso significa
 # que nem sempre nós precisamos usa-las.
@@ -67,8 +67,8 @@ except (ValueError, TypeError):
 except ZeroDivisionError:
     print('Não é possível dividir um número por zero!')
 except KeyboardInterrupt:
-    print('O usuário preferiu não informar os dados!')
+    print('\nO usuário preferiu não informar os dados!')
 else:
     print(f'O resultado é {r:.1f}')
 finally:
-    print('Volte sempre! Muito obrigado!')
+    print('\nVolte sempre! Muito obrigado!')

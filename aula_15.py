@@ -2,8 +2,8 @@
 '''
 Portugol:
 
-enquanto Verdadeiro:  (Esta é uma condição que se repete indefinidamente, ou seja,
-    se chão:            um loop infinito!)
+enquanto Verdadeiro:  (Esta é uma condição que se repete indefinidamente,
+    se chão:           ou seja, um loop infinito!)
         passo
     se não tem chão:
         pula

@@ -58,7 +58,7 @@ print(c.index(2, 4))
 print(c.index(5))
 print(c.index(5, 1))
 
-pessoa = ('Gustavo', 39, 'M', 99.88) # As Tuplas aceitam vários tipos de dado!
+pessoa = ('Gustavo', 39, 'M', 99.88) # As Tuplas aceitam vários tipos de dados!
 print(pessoa)
 
 del(pessoa) # É possível apagar uma Tupla inteira ou qualquer coisa com o comando

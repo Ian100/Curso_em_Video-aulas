@@ -26,7 +26,7 @@ teste.append('Gustavo')
 teste.append(40)
 print(teste)
 galera = list()
-galera.append(teste[:])
+galera.append(teste[:])  # Estou copiando os dados da lista teste para a lista galera.
 teste[0] = 'Maria'
 teste[1] = 22
 galera.append(teste[:])

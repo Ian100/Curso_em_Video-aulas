@@ -9,7 +9,7 @@ print('Prazer em te conhecer {:<20}!'.format(nome))
 
 print('Prazer em te conhecer {:^20}!'.format(nome))
 
-print('Prazer em te conhecer {:=^20}!\n'.format(nome))
+print('Prazer em te conhecer {:=^20}! \n'.format(nome))
 
 n1 = int(input('Digite um valor: '))
 n2 = int(input('Digite outro valor: '))

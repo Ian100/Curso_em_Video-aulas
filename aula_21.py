@@ -36,12 +36,12 @@
 # Normalmente em Python quando se define uma função com
 # parâmetros, espera-se que todos estes parâmetros sejam
 # preenchidos/cumpridos, caso contrário, uma mensagem
-# de erro será apresentada na tela. Mas, com o
+# de erro será apresentada na tela. Mas com o
 # conceito de Parâmetros Opcionais, podemos alterar isso.
 #
 # Ex:
-#    def soma(a, b, c):
-#        s = a + b + c
+#    def soma(self, b, c):
+#        s = self + b + c
 #        print(f'A soma vale {s}')
 #
 #
@@ -56,8 +56,8 @@
 # Agora aplicando o conceito de Parâmetros Opcionais à esta
 # mesma função ficaria assim:
 #
-# def soma(a=0, b=0, c=0):
-#     s = a + b + c
+# def soma(self=0, b=0, c=0):
+#     s = self + b + c
 #     print(f'A soma vale {s}')
 #
 #
@@ -66,7 +66,7 @@
 # soma()
 #
 # Obs.: Note que atribuímos o valor 0(Zero) aos parâmetros
-# 'a', 'b' e 'c'. Isso significa que caso não for informado
+# 'self', 'b' e 'c'. Isso significa que caso não for informado
 # NENHUM VALOR para qualquer um destes parâmetros,
 # por PADRÃO eles valerão 0(Zero).
 
@@ -74,56 +74,56 @@
 #
 # Ex:
 #    def teste(b):    - Escopo Local
-#        a = 8
+#        self = 8
 #        b += 4
 #        c = 2
-#        print(f'A dentro vale {a}')
+#        print(f'A dentro vale {self}')
 #        print(f'B dentro vale {b}')
 #        print(f'C dentro vale {c}')
 #
-#    a = 5            - Escopo Global
-#    teste(a)
-#    print(f'A fora vale {a}')
+#    self = 5            - Escopo Global
+#    teste(self)
+#    print(f'A fora vale {self}')
 #
 # Obs.: É possível mostrar na tela uma variável Global
 # dentro de um Escopo Local, porém não é possível mostrar
 # uma variável Local dentro de um Escopo Global.
 #
-# Obs.: No exemplo acima, a variável 'a' criada dentro do
-# Escopo Local NÃO REPRESENTA a variável Global 'a'. Ao invés
-# disso, quando definimos a variável Local 'a' com valor 8 no
-# Escopo Local, foi criado na memória mais uma variável 'a'
+# Obs.: No exemplo acima, a variável 'self' criada dentro do
+# Escopo Local NÃO REPRESENTA a variável Global 'self'. Ao invés
+# disso, quando definimos uma variável Local 'self' com valor 8 no
+# Escopo Local, é criado na memória mais uma variável 'self'
 # além da variável Global, sendo ao total duas variáveis,
 # uma Local e outra Global.
 #
 # Ex:
 #    def teste(b):     - Escopo Local
-#        global a
-#        a = 8
+#        global self
+#        self = 8
 #        b += 4
 #        c = 2
-#        print(f'A dentro vale {a}')
+#        print(f'A dentro vale {self}')
 #        print(f'B dentro vale {b}')
 #        print(f'C dentro vale {c}')
 #
 #
-#    a = 5             - Escopo Global
-#    teste(a)
-#    print(f'A fora vale {a}')
+#    self = 5             - Escopo Global
+#    teste(self)
+#    print(f'A fora vale {self}')
 #
 # Obs.: Note que no Escopo Local, logo abaixo do comando
-# 'DEF', está escrito "global a". Esta palavra reservada
+# 'DEF', está escrito "global self". Esta palavra reservada
 # chamada 'global', indica ao nosso programa que não queremos
-# que ele crie uma nova variável 'a'(Local), mas ao invés
-# disso use a variável Global 'a' dentro do Escopo Local.
-# Assim 'a' Global passa a valer 8 tanto no Escopo Local
+# que ele crie uma nova variável 'self'(Local), mas ao invés
+# disso use a variável Global 'self' dentro do Escopo Local.
+# Assim 'self' Global passa a valer 8 tanto no Escopo Local
 # quanto no Escopo Global.
 
 # Retorno de Valores
 #
 # Ex:
-#    def somar(a=0, b=0, c=0):
-#        s = a + b + c
+#    def somar(self=0, b=0, c=0):
+#        s = self + b + c
 #        print(f'A soma vale {s}')
 #
 #
@@ -135,8 +135,8 @@
 # o resultado, como no exemplo de baixo. Compare-os!
 #
 # Ex:
-#    def somar(a=0, b=0, c=0):
-#        s = a + b + c
+#    def somar(self=0, b=0, c=0):
+#        s = self + b + c
 #        return s
 #
 #
@@ -147,7 +147,7 @@
 #
 # Obs.: Neste exemplo temos a palavra reservada 'return', que,
 # neste caso, está retornando o valor da variável 's'.
-# Sendo assim, é possível personalizar a forma como queremos
+# Sendo assim, é possível personalizar a variável self da forma como queremos
 # que o resultado da função 'somar' apareça na tela.
 
 # Parte Prática:
@@ -160,7 +160,7 @@ def fatorial(numero=1):
 
 
 n = int(input('Digite um número: '))
-print(f'O fatorial de {n} é igual a {fatorial(n)}')
+print(f'O fatorial de {n} é igual self {fatorial(n)}')
 
 f1 = fatorial(5)
 f2 = fatorial(4)
