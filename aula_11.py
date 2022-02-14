@@ -9,9 +9,9 @@ nome = str(input('Digite seu nome: '))
 print('Muito prazer, \033[1;31m{}\033[m!!!'.format(nome))
 
 print('Muito prazer, {}{}{}!!!'.format('\033[4;34m', nome, '\033[m'))
-cores = {'padrão':'\033[m',
-         'azul':'\033[34m',
-         'amarelo':'\033[33m',
-         'preto/branco':'\033[7;30m'}
+cores = {'padrão': '\033[m',
+         'azul': '\033[34m',
+         'amarelo': '\033[33m',
+         'preto/branco': '\033[7;30m'}
 
 print('Olá! Muito prazer em te conhecer {}{}{}!!'.format(cores['preto/branco'], nome, cores['padrão']))
