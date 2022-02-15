@@ -45,15 +45,19 @@
 
 # Exemplo 1:
 
-'''for c in range(1, 10):
+'''
+   for c in range(1, 10):
        print(c)
-   print('Fim') '''
+   print('Fim')
+'''
 
-'''c = 1
+'''
+   c = 1
    while c < 10:
        print(c)
        c += 1
-   print('Fim')'''
+   print('Fim')
+'''
 
 # Exemplo 2:
 

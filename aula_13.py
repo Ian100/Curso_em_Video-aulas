@@ -43,7 +43,7 @@ pega
 Em Python:
 
 for c in range(0, 3):
-    if tiver moeda:
+    if moeda:
         pega
     passo
     pula
