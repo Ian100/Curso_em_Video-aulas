@@ -1,4 +1,6 @@
 '''
+--------------VARIÁVEIS COMPOSTAS--------------
+
 Existem 3 tipos de variáveis compostas:
 
 - TUPLAS
